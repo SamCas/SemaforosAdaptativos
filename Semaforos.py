@@ -37,7 +37,6 @@ def agregar_trafico_carriles():
 		carros_en_carril[carril] = carros_en_carril[carril] + randint(1, 15)
 		print "\tCarros en el carril {} = {}".format(nombre_de_carril[carril], carros_en_carril[carril])
 
-
 def simula_cruce_con_semaforo():
 	"""
 	Funcion que simula el funcionamiento de un cruce de calles con semaforos
